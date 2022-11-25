@@ -1,0 +1,46 @@
+:root {
+  --hero-bg-color: #014e56;
+  --build-bg-color: #012f34;
+  --deliver-bg-color: #004047;
+  --article-bg-color: #f67e7e;
+  --footer-bg-color: #002529;
+  --main-text-color: #fff;
+  --deliver-text-color: #79c8c7;
+}
+.hero-about-section {
+  padding-bottom: 120px;
+  background-color: var(--hero-bg-color);
+  background-image: url(../images/icons/hero-about-right.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 685px) bottom;
+}
+
+.hero-about-section-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hero-about-section-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hero-about-section-subtitle {
+  width: 730px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+  margin: 0;
+}
+
+.hero-about-section-subtitle::before{
+  display: block;
+  width: 50px;
+  margin-bottom: 40px;
+  height: 4px;
+  background-color: var(--article-bg-color);
+  content: "";
+}
