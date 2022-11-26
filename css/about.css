@@ -7,6 +7,8 @@
   --main-text-color: #fff;
   --deliver-text-color: #79c8c7;
 }
+/* site main start */
+/* hero-about-section start */
 .hero-about-section {
   padding-bottom: 120px;
   background-color: var(--hero-bg-color);
@@ -36,7 +38,7 @@
   margin: 0;
 }
 
-.hero-about-section-subtitle::before{
+.hero-about-section-subtitle::before {
   display: block;
   width: 50px;
   margin-bottom: 40px;
@@ -44,3 +46,179 @@
   background-color: var(--article-bg-color);
   content: "";
 }
+/* hero-about-section start */
+
+/* directors-about-section start */
+.directors-about-section {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--deliver-bg-color);
+  background-image: url(../images/icons/director-about-left.svg),
+    url(../images/icons/directors-about-bg-right.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 680px) top, calc(50% + 600px) bottom;
+}
+
+.directors-about-section-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+
+.directors-about-section-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 76px 30px;
+}
+
+.directors-about-section-box {
+  position: relative;
+  width: 350px;
+  background-color: var(--build-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.directors-about-user-img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 13px;
+}
+
+.directors-about-section-subtitle {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--deliver-text-color);
+  margin: 0;
+}
+
+.directors-about-section-disc {
+  font-family: "Livvic";
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+
+.directors-about-section-btn {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  bottom: -30px;
+  background-color: var(--article-bg-color);
+  cursor: pointer;
+  /* transition: all 0.5s linear; */
+}
+
+.directors-about-section-btn:hover {
+  background-color: var(--deliver-text-color);
+  transition: all 0.5s linear;
+}
+
+.directors-about-section-btn:active {
+  background-color: var(--article-bg-color);
+  transform: rotate(45deg);
+}
+
+.directors-about-section-subtitle-list-title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--deliver-text-color);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.directors-about-section-disc-list-title {
+  width: 254px;
+  margin-bottom: 24px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-top: 0;
+}
+
+.directors-about-section-list {
+  display: flex;
+  align-items: center;
+}
+
+.directors-about-section-item {
+  margin-bottom: 35px;
+}
+
+.directors-about-section-item-link {
+  color: var(--main-text-color);
+}
+
+.directors-about-section-item-link:first-child {
+  margin-right: 16px;
+}
+/* directors-about-section end */
+
+/* clients section start */
+.clients-about-section {
+  background-color: var(--build-bg-color);
+  background-image: url(../images/icons/clients-bg.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 580px) calc(50% - 124px);
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.clients-about-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clients-about-section-title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+.clients-about-section-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.clients-about-section-item {
+  margin-right: 80px;
+}
+
+.clients-about-section-item:last-child{
+  margin-right: 0;
+}
+.company-logos {
+}
+/* clients section end */
+
+/* site main start */
