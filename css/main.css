@@ -1042,7 +1042,69 @@ a {
     margin-right: auto;
     width: 100%;
     max-width: 255px;
-    margin-left: 400px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .site-footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .site-footer-start {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .site-header-addres-title {
+    margin: 0;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-right: auto;
+    width: 100%;
+    max-width: 255px;
+    text-align: center;
+  }
+
+  .site-footer-address-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .site-footer-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    height: 16px;
+  }
+
+  .site-footer-list {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+
+  .site-footer-end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .site-footer-start-box {
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 /* *** SITE FOOTER RESPONSIVE END **** */
